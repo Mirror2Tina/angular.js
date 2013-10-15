@@ -1,11 +1,13 @@
 <html ng-app>
 <head>
-	<script type="text/javascript" src="../build/angular.js"></script>
+	<script type="text/javascript" src="../build/angular.js">var a=1;alert(a)</script>
 </head>
 <body>
-	<div>
-		<label>Name:</label>
-		<input type="text" ng-model="yourName" placeholder="Enter a name" >
+	<div id="s">
+		<form name="xsx"></form>
+		<form name="xsx"></form>
+		<label id="ss">Name:</label>
+		<input id="sss" type="text" ng-model="yourName" placeholder="Enter a name" >
 		<hr>
 		<h1>Hello {{yourName}}</h1>
 	</div>
